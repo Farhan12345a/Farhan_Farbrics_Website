@@ -1,0 +1,754 @@
+<html>
+    <head>
+    
+        <title>Socks</title>
+    
+        <style type = "text/css">
+        
+            #topbar {
+                width:1500px;
+                margin:0 auto;
+                background-color: white;
+                height: 110px;
+            }
+            
+            body{
+                margin: 0;
+                padding: 0;
+                font-family : Stencil Std, fantasy, sans-serif;
+                
+            }
+            
+            #logo{
+                margin-top: 0px;
+                width: 140px;
+                height: 110px;
+                float: left;
+                margin-right: 10px;
+            }
+            
+            .topbar-section{
+                float:left;
+                border-left: 1px black solid;
+                height: 100%;
+            }
+            
+            #welcome-text{
+                font-weight: bold;
+                font-size: 300%;
+                position: relative;
+                top: 20px;
+                padding: 10px 10px 10px;
+            }
+            
+            #men-text{
+                font-weight: bold;
+                font-size: 300%;
+                position: relative;
+                top: 20px;
+                padding:10px 10px 10px
+                
+            }
+            .topbar-menu{
+                height: 110px;
+            }
+            
+            #search-box{
+                background-color: gainsboro;
+                border: none;
+                font-weight: bold;
+                font-size: 200%;
+                padding: 5px;
+                margin-top: 25px;
+                margin-left: 20px;
+                margin-right: 10px;
+            }
+            
+            #magnify_glass{
+                height: 30px;
+                margin-top: 20px;
+                
+            }
+            
+            .clear{
+                clear: both;
+            }
+        
+            
+            #menu-bar-container{
+                border: 1px solid black;
+                background-color: aqua;
+                width: 1500px;
+                height: 90px;
+            }
+            
+            h1{
+                padding: 0;
+                margin:0;
+                color: black;
+                font-size: 60px;
+                font-weight: bold;
+                padding-top: 10px;
+                float:left;
+               
+            }
+            #christmas{
+                
+                float:left;
+            }
+            
+          
+            #christmas a{
+                color:red;
+                text-decoration: none;
+                font-size: 30px;
+                position:relative;
+                top: -10px;
+                right: 20px;
+                left: 50PX;
+            }
+            
+            #christmas a:hover{
+                text-decoration: underline;
+            }
+            
+            #christmas img{
+                height:90px;
+                width: 100px;
+                padding-left: 100px;
+            }
+            
+            #menu-bar-2-container{
+                background-color: lightskyblue;
+                width: 1500px;
+                height:50px;
+            }
+            
+            #menu-bar-2{
+                width:1500px;
+                margin: 0 auto;
+                height: 30px;
+                
+            }
+            
+            #red-topbar-label{
+                color:red !important;
+            }
+            
+            #menu-bar-2 a{
+                color:white;
+                text-decoration: none; 
+                padding: 0 10px;
+                border-right: 1px solid white;
+                font-size: 18px;
+                position: relative;
+                top: -4px;
+                
+            }
+            
+            .no-border{
+                border:none !important;
+            }
+            #menu-bar-2 hover{
+                text-decoration: underline;
+                
+            }
+            
+            #checkout-pic{
+                height:40px;
+                width: 60px;
+                float: right;
+                position: relative;
+                right: 30px;
+                bottom: 10px;
+            }
+            
+            #page-container{
+                width:1500px;
+                margin: 0 auto;
+                
+            }
+            
+            h2{
+                font-weight: normal;
+                margin-top: 10px;
+            
+                font-size: 80px;
+                position: relative;
+                color: black;
+                border-bottom: 4px solid black;
+                width: 550px;
+            }
+            
+            #shoe-message{
+                position:relative;
+                bottom: 60px;
+                left: 400px;
+            }
+            
+            h3 a{
+                color:black;
+                font-size: 20px;
+                
+            }
+            
+            #practice-link{
+                position: relative;
+                bottom: 60px;
+                left: 20px;
+                text-decoration: underline;
+                font-size: 40px;
+                
+            }
+            
+            h3 a:hover{
+                color: blue;
+            }
+            
+            #sock1-summary{
+                width: 350px;
+                position: relative;
+                top: -100px;
+                padding: 20px; 
+                color: red;
+                float: left;
+                
+            }
+            
+            #sock1-summary img{
+                height: 130px;
+                width: 270px;
+                margin: 0 auto;
+                position: relative;
+                bottom: 20px;
+                left: 35px;
+            }
+            
+            #tech-link{
+                text-decoration: none;
+                color: black;
+                border-left: 1px solid grey;
+                padding-left: 10px;
+            }
+            
+            #sock1-summary a:hover{
+                color: blue;
+            }
+            
+            #size{
+                padding-right: 10px;
+            }
+            
+            #article-container{
+                float:left;
+                width: 700px;
+                
+                border-right: 1px solid black;
+                padding: 20px;
+            }
+            
+            #sock-image{
+                width:250px;
+                height: 250px;
+                position: relative;
+                bottom: 100px;
+                margin-left: 10px;
+            }
+            
+            #article-hr{
+                border-top: 1px solid red;
+                width: 300px;
+    
+            }
+            .art-link{
+                color: black;
+                text-decoration: none;
+                font-size: 20px;
+                
+            }
+            
+            #other-items{
+                margin-left:20px;
+                width: 600px;
+                float:left;
+            }
+            
+            h4{
+                font-weight:normal;
+                font-size: 20px;
+            }
+            
+            .sock-side-image{
+                float:left;
+                width: 300px;
+                height: 300px;
+                margin-right: 10px;
+                padding: 15px;
+            }
+            
+            .other-items-link{
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+                font-size: 18px;
+                float:right;
+            }
+            
+            .other-items-link:hover{
+                color:pink;
+            }
+            
+            .side-article{
+                float: right;
+                width: 250px;
+                position:relative;
+                top: 10px;
+            }
+            
+            #bottom-section{
+                width:1500px;
+                height:200px;
+                background-color: aqua;
+                float: left;
+                margin: auto 0;
+            }
+            
+            .bottom-section-1{
+                height:200px;
+                width: 200px;
+                background-color: aqua;
+                position: relative;
+                left: 20px;
+                bottom: 100px;
+                padding-right:300px;
+            }
+            
+            #bottom-section-2{
+                height:200px;
+                width: 200px;
+                background-color: aqua;
+                position: relative;
+                bottom: 175px;
+                left: 220px;
+                padding-right:300px;
+            }
+            
+            #bottom-section-3{
+                height:200px;
+                width: 200px;
+                background-color: aqua;
+                position: relative;
+                bottom: 375px;
+                left: 420px;
+                padding-right: 200px;
+            }
+            
+            .bold-text{
+                color: white;
+                font-weight:bold;
+                font-family : Stencil Std, fantasy, sans-serif;
+            }
+            
+            #bottom-section-4{
+                height:200px;
+                width: 200px;
+                background-color: aqua;
+                position: relative;
+                bottom: 575px;
+                left: 620px;
+                padding-right: 200px;
+            }
+            
+            #bottom-section-5{
+                height:70px;
+                width: 100px;
+                background-color: aqua;
+                position: relative;
+                bottom: 775px;
+                left: 820px;
+                padding-right: 200px;
+            }
+            
+            #bottom-section-6{
+                height:50px;
+                width: 220px;
+                background-color: aqua;
+                position: relative;
+                bottom: 700px;
+                left: 1080px;
+                
+                padding-right: 200px;
+            }
+            
+            .social-media-pic{
+                width:30px;
+                height: 30px;
+                padding-right: 10px;
+            }
+            #logo-pic{
+                height: 200px;
+                width: 240px;
+               
+            }
+            
+            .shoe-size{
+                height:90px !important;
+                width: 100px;
+            }
+            
+            #first-review{
+                height: 240px;
+                width: 650px;
+                background-color: white;
+            }
+            
+            #sock-user-pic{
+                height:40px !important;
+                width: 120px !important;
+                position: relative;
+                top: 5px;
+                left: 20px !important;
+            }
+            
+            #sock-rating-pic{
+                height: 35px !important;
+                width: 10px;
+                position: relative;
+                top: 4px;
+            }
+            
+            #sock-user-pic2{
+                position:relative;
+                top: 20px;
+                left: 20px !important;
+                height: 40px !important;
+                width:120px !important;
+            }
+            
+            #sock-rating-pic2{
+                height:35px !important;
+                width:270px !important;
+                position: relative;
+                top: 20px;
+                right:10px;
+            }
+            
+            .other-title{
+                text-decoration: underline;
+                color: aqua;
+                font-weight: bold;
+                font-size: 40px;
+                
+            }
+            .checked {
+                color: orange;
+            }
+            
+           
+                
+            
+            
+        </style>
+        
+        <!--Javascript script-->
+ 
+        
+         <link rel="stylesheet" href="mystyle.css">
+        
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        
+    
+    
+    </head>
+
+
+    <body>
+    
+        <div id = "topbar">
+        
+            <a href="Main_Page.html"><img id = "logo" src = "images/Logo.png"></a>
+            
+            <div id = "welcome-div" class = "topbar-section">
+                
+                <a id = "welcome-text" href = "Main_Page.html">*25% ALL ORDERS*</a>
+            
+            
+            </div>
+            
+            <div class="topbar-section topbar-menu">
+                
+                <span id = "men-text">MENS</span>
+            
+            </div>
+            
+            <div class="topbar-section topbar-menu">
+                
+                <span id = "men-text">WOMENS</span>
+            
+            </div>
+            <!--
+            <div class="topbar-section topbar-menu">
+                
+                <span id = "men-text">ACCESSORIES</span>
+            
+            </div>
+            -->
+            
+            <div class = "topbar-section">
+            
+                <input id = "search-box" type = "text" value = "Search">
+                
+               
+                
+            </div>
+    
+        </div>
+        
+        
+        <div class = "clear"></div>
+        
+            
+        <div id = "menu-bar-container">
+            
+            <div id = "menu-bar">
+                
+                <h1> Men Collection</h1>
+                
+                <div id = "christmas">
+                    
+                     <img src = "images/christmas_decor.jpeg">
+                    
+                    <!-- HOW TO ACCESS LINKS !!!--> 
+                    <a href = "checkout.html">CHRISTMAS SPECIALS! PROMO CODE: 7439AP</a>
+                    
+                    <img src = "images/christmas_decor.jpeg">
+                
+                </div>
+             
+            </div>
+            
+        </div>
+        
+        <div id = "menu-bar-2-container">
+            
+            <div id = "menu-bar-2">
+      
+                <a href = "Button_Down_Shirts.html">Button-Down Shirts</a>
+                
+                <a href = "Shorts.html">Shorts</a>
+                
+                <a href = "Swim_Trunks.html">Swim Trunks & Bathing Suits</a>
+                
+                <a href = "Ties.html">Ties & Bow Ties</a>
+                
+                <a href = "Belts.html">Belts</a>
+                
+                <a href = "Hats.html">Hats</a>
+                
+                <a  href = "Socks.html">Socks</a>
+            
+                <a href = "Wallets.html">Wallets & Small Accessories</a>
+                
+                <a class = "no-border" id = "red-topbar-label" href = "checkout.html">Checkout</a>
+                
+                <img id = "checkout-pic" src = "images/Checkout-pic.png">
+                                                
+            
+                
+            </div>
+        
+        </div>
+        
+        <div class = "clear"></div>
+        
+        <div id = "page-container">
+                                 
+        
+            <div id = "main-section">
+            
+                <h2>Checkout</h2>
+                    
+                <div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+
+        <div class="row">
+          <div class="col-50">
+            <h3>Billing Address</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="john@example.com">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <input type="text" id="city" name="city" placeholder="New York">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="NY">
+              </div>
+              <div class="col-50">
+                <label for="zip">Zip</label>
+                <input type="text" id="zip" name="zip" placeholder="10001">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Payment</h3>
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2018">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+        <input type="submit" value="Continue to checkout" class="btn">
+      </form>
+    </div>
+  </div>
+
+  <div class="col-25">
+    <div class="container">
+      <h4>Cart
+        <span class="price" style="color:black">
+          <i class="fa fa-shopping-cart"></i>
+          <b>4</b>
+        </span>
+      </h4>
+      <p><a href="Button_Down_Shirts.html">Slieght Button Down</a> <span class="price">$29.99</span></p>
+      <p><a href="Ties.html">Snowflake</a> <span class="price">$12.99</span></p>
+      <p><a href="Belts.html">Moose Tracks</a> <span class="price">$12.99</span></p>
+      <p><a href="Socks.html">Christmas Cat Socks</a> <span class="price">$14.99</span></p>
+      <hr>
+      <p>Total <span class="price" style="color:black"><b>$70.96</b></span></p>
+    </div>
+  </div>
+</div>
+                    
+                   
+                </div>
+                
+                
+            </div>
+            
+            
+            <!-- See importance of changing clear position!! 
+            
+             <div class = "clear"></div>
+            --> 
+          
+                   
+   
+        
+        <div class = "clear"></div>
+        
+        <div id = "bottom-section">
+            
+            <div id = "bottom-section-1">
+                Coupons
+                <br>
+                <br>
+                Discounts
+                <br>
+                <br>
+                Store
+                <br>
+                <br>
+                Store Directory
+            </div>
+            
+            <div id = "bottom-section-2">
+                <span class = "bold-text">Help</span>
+                <br>
+                <br>
+                FAQs
+                <br>
+                <br>
+                Shipping
+                <br>
+                <br>
+                Returns
+            </div>
+            <div id = "bottom-section-3">
+                <span class = "bold-text">Contact Us</span>
+                <br>
+                <br>
+                Email
+                <br>
+                <br>
+                Call Us: 5165550904
+                <br>
+                <br>
+               
+            </div>
+            
+            <div id = "bottom-section-4">
+                <span class = "bold-text">Explore</span>
+                <br>
+                <br>
+                New Arrivals
+                <br>
+                <br>
+                Shop By Style
+                <br>
+                <br>
+                Student Discount
+               
+            </div>
+            
+            <div id = "bottom-section-5">
+                
+                <a href = "Main_Page.html"><img id = "logo-pic" src = "images/Logo.png"></a>
+                
+            </div>
+           
+            <div id = "bottom-section-6">
+                
+                <img class = "social-media-pic" src = "images/facebook.svg">
+                
+                <img class = "social-media-pic" src = "images/twitter.svg">
+                
+                <img class = "social-media-pic" src = "images/pinterest.svg">
+                
+                <img class = "social-media-pic" src = "images/instagram.svg">
+                
+                <img class = "social-media-pic" src = "images/youtube.svg">
+                
+            </div>
+            
+        </div>
+        
+            
+
+    </body>
+
+</html>
